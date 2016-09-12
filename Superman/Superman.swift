@@ -8,14 +8,25 @@
 
 import Foundation
 
+enum type {
+    case human
+    case alien
+    case machine
+    case other
+}
+
 class Superman {
     var name: String!
     var age: Int!
     var eyeColor: String!
     var superPower: String!
-
+    var typeSuperhero = type.alien
+    
     init(name: String, age: Int){
         self.name = name
         self.age = age
+        self.typeSuperhero = type.alien
     }
+    
+    
 }
