@@ -11,7 +11,7 @@ import Foundation
 class Superman {
     var name: String!
     var age: Int!
-    
+    var superPower: String!
     init(name: String, age: Int){
         self.name = name
         self.age = age
