@@ -10,4 +10,5 @@ import Foundation
 
 class Superman {
     var name: String!
+    var age: Int!
 }
