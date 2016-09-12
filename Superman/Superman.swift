@@ -22,6 +22,7 @@ class Superman {
     var superPower: String!
     var typeSuperhero = type.alien
     
+    var girlfriend: String!
     init(name: String, age: Int){
         self.name = name
         self.age = age
