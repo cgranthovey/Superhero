@@ -13,7 +13,7 @@ class Superman {
     var age: Int!
     var eyeColor: String!
     var superPower: String!
-
+    var girlfriend: String!
     init(name: String, age: Int){
         self.name = name
         self.age = age
