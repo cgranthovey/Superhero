@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         var myHero: Superman!
         
+        var x = 3
+        
     }
 
     override func didReceiveMemoryWarning() {
