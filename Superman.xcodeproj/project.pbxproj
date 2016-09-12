@@ -13,6 +13,7 @@
 		A1512E361D874F0C00C5AA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1512E351D874F0C00C5AA0E /* Assets.xcassets */; };
 		A1512E391D874F0C00C5AA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1512E371D874F0C00C5AA0E /* LaunchScreen.storyboard */; };
 		A1512E441D874F0C00C5AA0E /* SupermanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1512E431D874F0C00C5AA0E /* SupermanTests.swift */; };
+		A1512E4F1D874F2900C5AA0E /* Superman.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1512E4E1D874F2900C5AA0E /* Superman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A1512E3F1D874F0C00C5AA0E /* SupermanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupermanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1512E431D874F0C00C5AA0E /* SupermanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermanTests.swift; sourceTree = "<group>"; };
 		A1512E451D874F0C00C5AA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1512E4E1D874F2900C5AA0E /* Superman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Superman.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				A1512E351D874F0C00C5AA0E /* Assets.xcassets */,
 				A1512E371D874F0C00C5AA0E /* LaunchScreen.storyboard */,
 				A1512E3A1D874F0C00C5AA0E /* Info.plist */,
+				A1512E4E1D874F2900C5AA0E /* Superman.swift */,
 			);
 			path = Superman;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1512E4F1D874F2900C5AA0E /* Superman.swift in Sources */,
 				A1512E311D874F0C00C5AA0E /* ViewController.swift in Sources */,
 				A1512E2F1D874F0C00C5AA0E /* AppDelegate.swift in Sources */,
 			);
