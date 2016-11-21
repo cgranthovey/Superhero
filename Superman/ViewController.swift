@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var newMessage = "Let's do this thing"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         var myHero: Superman!
